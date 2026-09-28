@@ -1,4 +1,6 @@
 {
-  "item.tmod.test": "Test"
+  "item.tmod.test": "Test",
+  "creativemode.tmod.test_items": "Test Items",
+  "creativemode.tmod.test_blocks": "Test blocks"
 
 }
