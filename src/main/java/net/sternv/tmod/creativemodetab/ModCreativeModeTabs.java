@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.sternv.tmod.Tmod;
+import net.sternv.tmod.block.ModBlocks;
 import net.sternv.tmod.item.ModItems;
 
 public class ModCreativeModeTabs {
@@ -25,10 +26,10 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab TEST_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(Tmod.MOD_ID, "test_blocks"),
-            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.TEST))
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.TEST_BLOCK))
                     .title(Component.translatable("creativemode.tmod.test_blocks"))
-                    .displayItems((parameters, output) -> {
-                        output.accept(ModItems.TEST);
+                    .displayItems((parameters,  output) -> {
+                        output.accept(ModBlocks.TEST_BLOCK);
                     })
 
 

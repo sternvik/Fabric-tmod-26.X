@@ -1,3 +1,6 @@
 // 26.3	-999999999-01-01T00:00:00	Tmod/Model Definitions
+4d31e715f0833f119097cc328d4c1a96d79d14e0 assets/tmod/blockstates/test_block.json
 f9ab348d119f2e22cdc5197bc4e2b83963c9fdbf assets/tmod/items/test.json
+cef7a0f0724ed2dee0e9e0c709bee0bfeabd9a7a assets/tmod/items/test_block.json
+9bb5127fb25426e46b311862ad3b62cd039ef611 assets/tmod/models/block/test_block.json
 7a173374ac981a482260f61f52b495232103f816 assets/tmod/models/item/test.json

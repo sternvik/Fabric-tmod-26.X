@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
 
+import net.sternv.tmod.block.ModBlocks;
 import net.sternv.tmod.creativemodetab.ModCreativeModeTabs;
 import net.sternv.tmod.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class Tmod implements ModInitializer {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 
 }
