@@ -1,0 +1,3 @@
+// 26.3	-999999999-01-01T00:00:00	Tmod/Tags for minecraft:block
+d543614be6aced7ecf42820da275f3239a65621f data/minecraft/tags/block/mineable/pickaxe.json
+d543614be6aced7ecf42820da275f3239a65621f data/minecraft/tags/block/needs_iron_tool.json

@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemode.tmod.test_blocks"))
                     .displayItems((parameters,  output) -> {
                         output.accept(ModBlocks.TEST_BLOCK);
+                        output.accept(ModBlocks.TEST_BLOCK_ORE);
                     })
 
 

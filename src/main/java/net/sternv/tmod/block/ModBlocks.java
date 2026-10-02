@@ -20,6 +20,11 @@ public class ModBlocks  {
             properties -> new Block(properties.strength(4.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final Block TEST_BLOCK_ORE = registerBlock("test_block_ore",
+            properties -> new Block(properties.strength(4.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Tmod.MOD_ID, name))));
         registerBlockItems(name, toRegister);
@@ -35,6 +40,10 @@ public class ModBlocks  {
 
     public static void registerModBlocks(){
         Tmod.LOGGER .info("Registering Mod Blocks for " +  Tmod.MOD_ID);
+    }
+
+    public static ResourceKey<Block> getRK(Block block) {
+        return BuiltInRegistries.BLOCK.getResourceKey(block).get();
     }
 
 }

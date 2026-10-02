@@ -2,6 +2,8 @@ package net.sternv.tmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.sternv.tmod.datagen.ModBlockLootTableProvider;
+import net.sternv.tmod.datagen.ModBlockTagsProvider;
 import net.sternv.tmod.datagen.ModModelProvider;
 
 public class TmodDataGenerator implements DataGeneratorEntrypoint {
@@ -10,5 +12,7 @@ public class TmodDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }

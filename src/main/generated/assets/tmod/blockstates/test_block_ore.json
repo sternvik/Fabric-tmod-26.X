@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tmod:block/test_block_ore"
+    }
+  }
+}
