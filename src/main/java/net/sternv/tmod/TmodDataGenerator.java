@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.sternv.tmod.datagen.ModBlockLootTableProvider;
 import net.sternv.tmod.datagen.ModBlockTagsProvider;
 import net.sternv.tmod.datagen.ModModelProvider;
+import net.sternv.tmod.datagen.ModRecipeProvider;
 
 public class TmodDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class TmodDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }

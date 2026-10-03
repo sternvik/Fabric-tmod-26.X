@@ -1,0 +1,13 @@
+// 26.3	-999999999-01-01T00:00:00	Tmod/Recipes
+44901ca42e3fbbd41975828fd2b99fe48bf7d9ae data/tmod/advancement/recipes/misc/test.json
+5877936bf0d97bbfba5d6710ba222356e3f872af data/tmod/advancement/recipes/misc/test_block.json
+2a9586c8c3c59e69f10022a72250c8b8eb2c2bd1 data/tmod/advancement/recipes/misc/test_from_blasting_test.json
+39aeeac0e0102ccdbc5731da906b9fbf93b990ab data/tmod/advancement/recipes/misc/test_from_blasting_test_block_ore.json
+5cb825149747edcdd42932bc523fa7e824722caa data/tmod/advancement/recipes/misc/test_from_smelting_test.json
+9d95e942bf38f05af32ddfc5549b815aae4c7d57 data/tmod/advancement/recipes/misc/test_from_smelting_test_block_ore.json
+1cc5eec94101b71a7b28f95e6d5ae96ae2bf8a8b data/tmod/recipe/test.json
+300980165e17ac0f5213147cd494c03e0e62269f data/tmod/recipe/test_block.json
+bc2d2ef55d3e8eaba665ee771cf6d878a24e1c22 data/tmod/recipe/test_from_blasting_test.json
+dc7c5feea6a24c4a5094f2461a1bb62fda5f502b data/tmod/recipe/test_from_blasting_test_block_ore.json
+f84003d69b7081efa6fcac5f3fbbfc94239276ca data/tmod/recipe/test_from_smelting_test.json
+0cfe891fe2adce8c0bf6cfe3b897f4e15d01f5aa data/tmod/recipe/test_from_smelting_test_block_ore.json

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "test",
+  "ingredients": [
+    "tmod:test_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tmod:test"
+  }
+}
